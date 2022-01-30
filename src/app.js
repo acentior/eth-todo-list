@@ -11,7 +11,6 @@ App = {
 
   // https://medium.com/metamask/https-medium-com-metamask-breaking-change-injecting-web3-7722797916a8
   loadWeb3: async () => {
-
     window.addEventListener('load', async () => {
         // Modern dapp browsers...
         if (window.ethereum) {
